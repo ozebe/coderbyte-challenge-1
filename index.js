@@ -13,6 +13,6 @@ csv().fromFile(csvPath)
             console.log("Não foi possível salvar o objeto para o arquivo output.json!");
             return console.log(err);
         }
-        console.log("Arquivo salvo com sucesso!");
+        console.log("Arquivo salvo com sucesso em " + outputPath);
     })
 });
